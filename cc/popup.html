@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="backend.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form>
+            <div class="input-group">
+                <label for="curtype1">Enter the currency code you want to convert from</label>
+                <input type="text" id="curtype1" autocomplete="on" placeholder="e.g., USD" class="currency-input">
+                <label for="cur1">Amount</label>
+                <input type="number" id="cur1" autocomplete="off" min="0" class="amount-input" placeholder="0">
+            </div>
+            <div class="input-group">
+                <label for="curtype2">Enter the currency code you want to convert to</label>
+                <input type="text" id="curtype2" autocomplete="on" placeholder="e.g., EUR" class="currency-input">
+                <label for="cur2">Amount</label>
+                <input type="number" id="cur2" autocomplete="off" min="0" class="amount-input" placeholder="0">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

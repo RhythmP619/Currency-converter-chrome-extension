@@ -1,0 +1,11 @@
+{
+    "name": "Currency Converter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "An Extension which converts one form of Currency to another.",
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    } 
+
+}
